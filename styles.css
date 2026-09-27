@@ -172,6 +172,7 @@ summary,.more-details>summary{font-size:1rem}
 
 /* Education stands on its own while retaining the compact section rhythm. */
 #education{background:#f6f8fc;box-shadow:0 0 0 100vmax #f6f8fc;clip-path:inset(0 -100vmax)}
+#experience{background:#fff;box-shadow:0 0 0 100vmax #fff;clip-path:inset(0 -100vmax)}
 .education-list .appointment{border-top:1px solid var(--line);padding:12px 0}
 .education-list .appointment:first-child{padding-top:0;border-top:0}
 .education-list .appointment:last-child{padding-bottom:0}
