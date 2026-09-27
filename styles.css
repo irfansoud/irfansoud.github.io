@@ -126,3 +126,46 @@ nav a{font-size:.9375rem}
 .research-icon{display:block;width:54px;height:54px;margin-bottom:16px;flex:none}
 .research-grid h3{line-height:1.35}
 @media(max-width:600px){.research-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.research-grid article{padding:14px}.research-icon{width:46px;height:46px;margin-bottom:10px}.research-grid h3{font-size:.94rem;line-height:1.35}}
+
+/* Larger reading type with less unused vertical space. */
+body{font-size:1.125rem;line-height:1.5}
+.header-inner{min-height:62px}
+nav a{font-size:1rem}
+.hero-backdrop .hero{padding-block:38px;gap:48px}
+.hero h1{font-size:clamp(2.7rem,3.6vw,3.7rem);margin-bottom:12px}
+.role{font-size:1.2rem;margin-bottom:10px}
+.hero-description{font-size:1.2rem;line-height:1.45}
+.hero .actions{margin-top:18px}
+.section{padding-block:32px}
+.section-heading{margin-bottom:16px}
+.section h2,.cv-section h2{font-size:clamp(2rem,2.6vw,2.35rem)}
+.about,.two-column{gap:30px}
+.research-grid{gap:14px}
+.research-grid article{padding:16px}
+.research-icon{margin-bottom:10px}
+.research-grid h3{font-size:1.1rem}
+.project-list{column-gap:26px}
+.project{padding:15px 0}
+.project:last-child{padding-bottom:15px}
+#projects .project h3{font-size:1.38rem;margin-bottom:5px}
+.project p{margin-bottom:5px}
+summary,.more-details>summary{font-size:1rem}
+.publication{padding:12px 0}
+.publication h3{font-size:1.3rem;line-height:1.35}
+.experience-list>.appointment{padding:9px 0}
+.experience-list>.appointment h3{font-size:1.2rem}
+.contact-list>div{padding:6px 0}
+@media(max-width:600px){
+  body{font-size:1.0625rem}
+  .hero-backdrop .hero{padding-block:20px;gap:14px}
+  .hero h1{font-size:clamp(2.2rem,7vw,2.55rem)}
+  .hero-description{font-size:1.0625rem}
+  .section{padding-block:25px}
+  .section h2{font-size:1.9rem}
+  .research-grid{gap:10px}
+  .research-grid article{padding:12px}
+  .research-grid h3{font-size:1rem}
+  .project{padding:13px 0}
+  #projects .project h3{font-size:1.25rem}
+  .publication h3{font-size:1.22rem}
+}
