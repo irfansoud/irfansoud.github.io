@@ -120,3 +120,9 @@ nav a{font-size:.9375rem}
 }
 
 @media(max-width:350px){.hero .actions{flex-wrap:wrap}.hero .button{justify-content:center;flex:1 1 100%}}
+
+/* Compact visual markers for the four research areas. */
+.research-grid article{padding:18px;border:1px solid #d9e2ef;border-radius:12px;background:#fff;box-shadow:0 4px 14px rgba(35,59,99,.04)}
+.research-icon{display:block;width:54px;height:54px;margin-bottom:16px;flex:none}
+.research-grid h3{line-height:1.35}
+@media(max-width:600px){.research-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.research-grid article{padding:14px}.research-icon{width:46px;height:46px;margin-bottom:10px}.research-grid h3{font-size:.94rem;line-height:1.35}}
