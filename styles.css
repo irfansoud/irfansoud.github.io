@@ -169,3 +169,13 @@ summary,.more-details>summary{font-size:1rem}
   #projects .project h3{font-size:1.25rem}
   .publication h3{font-size:1.22rem}
 }
+
+/* Education stands on its own while retaining the compact section rhythm. */
+#education{background:#f6f8fc;box-shadow:0 0 0 100vmax #f6f8fc;clip-path:inset(0 -100vmax)}
+.education-list .appointment{border-top:1px solid var(--line);padding:12px 0}
+.education-list .appointment:first-child{padding-top:0;border-top:0}
+.education-list .appointment:last-child{padding-bottom:0}
+.education-list .appointment h3{font-size:1.25rem;margin:5px 0 2px}
+.education-list .appointment p{margin:0 0 4px}
+.education-list .appointment p:last-child{margin-bottom:0}
+@media print{#education{background:white;box-shadow:none;clip-path:none}}
